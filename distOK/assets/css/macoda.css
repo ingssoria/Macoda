@@ -1,0 +1,822 @@
+/**Fuentes**/
+body{
+    font-family: 'Gugi', cursive;
+}
+h1{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.7rem;
+}
+h4{
+
+}
+
+.macoda_navbar .navbar-brand{
+    margin-left: 1rem;
+}
+
+.cont-imagen{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.macoda_slide1 .cont-imagen{
+    height: 10vw;
+}
+
+.macoda_slide2 .cont-imagen, .macoda_servicio_detalles .cont-imagen{
+    width: 55%;
+}
+
+@media (min-width: 1200px) {
+    h1{
+        font-size: 4vw;
+    }
+    h3{
+        font-size: 2vw;
+    }
+    h4{
+
+    }
+    .slidercapahc p{
+         font-size: 2rem;
+    }
+    .faqhc, .contenthc p, .articulosA p{
+             font-size: 1.5rem;
+    }
+
+    .p-izq-col-5{
+        flex: 20%;
+        max-width: 20%;
+    }
+    .dashcasasA{
+        flex: 77%;
+        max-width: 77%;
+    }
+
+    .dashcasasB{
+        flex: 23%;
+        max-width: 23%;
+    }
+
+}
+
+.hidden{
+    opacity:0;
+}
+.visible{
+    opacity:1;
+}
+
+@media (min-width: 575px) {
+    #box_itemhc:before, #navbox_itemmcd:before{
+        content: "";
+        background: #e5e5e5;
+        height: 10vh;
+        width: 1.6px;
+        position: absolute;
+        right: 0px;
+        top: 40px;
+    }
+
+}
+@media (max-width: 575px) {
+    .macoda_slide1 .cont-imagen{
+        height: 35vw!important;
+    }
+}
+
+@media (max-width: 640px) {
+    .macoda_navbar{
+        width: 40vw!important;
+    }
+    .macoda_navbar ul.flex-row{
+        flex-direction: column!important;
+    }
+    .macoda_navbar ul.align-items-center{
+        align-items: left!important;
+    }
+    .macoda_navbar li{
+        /*padding: 0.5rem 0 0.5rem 0!important;*/
+        padding: 0.2rem 0.5rem 0.2rem 0.5rem!important;
+        text-align: right;
+    }
+
+    .macoda_servicio h5, .macoda_servicio_detalles h5{
+        font-size: 1rem;
+    }
+    .encabezado_servios{
+        position: absolute;
+        z-index: 2000;
+        padding-bottom: 2vw;
+    }
+    .macoda_servicio .row{
+        height: auto!important;
+    }
+    .detalles_servicios{
+        margin-top: 15vw;
+    }
+    .detalles_servicios .pl-5, .macoda_servicio_detalles .row{
+        padding-left: 0!important;
+        padding-top: 3vw!important;
+        padding-bottom: 3vw!important;
+
+    }
+    .detalles_servicios .row div.py-4{
+        padding-bottom: 0.5rem!important;
+        padding-top: 0.5rem!important;
+    }
+    .detalles_servicios .lista-index{
+        height: 30vw!important;
+    }
+    .macoda_footer.card-footer{
+        padding: .75rem 0!important;
+    }
+    .macoda_footer .copy_right_area .w-50{
+        width: 100%!important;
+    }
+
+    .macoda_aboutus, .macoda_servicio_detalles{
+        font-size: .75rem;
+    }
+
+    .macoda_slide1 .cont-imagen{
+       height: 25vw!important;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .macoda_servicio h5, .macoda_servicio_detalles h5{
+        font-size: 0.75rem;
+    }
+    .macoda_navbar {
+         width: 50%!important;
+     }
+}
+@media (max-width: 575px) {
+
+
+    .macoda_aboutus, .macoda_servicio_detalles, .macoda_contact{
+        margin-top: 60vw!important;
+    }
+    .img_banner{
+        height: 60vw!important;
+    }
+    .macoda_aboutus section article{
+        padding-top: 2rem;
+    }
+    .macoda_aboutus .about-content{
+        padding-bottom: 4vw!important;
+        padding-top: 4vw!important;
+    }
+    .macoda_aboutus figcaption{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+}
+@media (max-width: 1200px) {
+    .cardcasa{
+        margin-bottom: 1vh;
+    }
+}
+/**Colores de Fuentes**/
+.macoda_navbar li.nav-item a{
+    color: #ef7d2d!important;
+    text-shadow: #3a474d 1px 1px 1px
+
+}
+
+/**Fondos**/
+
+.sliderhc, .bannerhc{
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: rgba(255,255,255,0.5)/*(58,71,77,0.2)*/;
+    padding: .5rem .5rem;
+}
+.owl-carousel p{
+    color: white;
+}
+
+.slide-1, .owl-slide-1{
+    background: url('../img/loteos/loteo1.jpg');
+}
+.slide-2, .owl-slide-2{
+    background: url('../img/loteos/loteo2.jpg');
+}
+.slide-3, .owl-slide-3{
+    background: url('../img/loteos/loteo3.jpg');
+}
+.slide-4, .owl-slide-4{
+    background: url('../img/loteos/loteo4.jpg');
+}
+.slide-1, .slide-2, .slide-3, .slide-4, .owl-slide-1, .owl-slide-2, .owl-slide-3, .owl-slide-4{
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.img_latest_news_areahc{
+    width: 100vh;
+    height: 25vh;
+}
+.slidercapahc, .bannercapahc, .macoda_bannercapa{
+    background-color: rgba(0,0,0,.5);
+    height: 80vh;
+}
+.bannerhc, .bannercapahc{
+    height: 30vh;
+}
+
+.creativeahc, .capacasa, .macoda_contact, .macoda_aboutus, .macoda_servicio_detalles{
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+}
+.creativebhc{
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+    margin-top: -100px !important;
+    /*margin-top: -70px !important;*/
+    z-index: 22;
+    position: relative;
+}
+.latest_news_areahc{
+    border: 1px solid #ebebeb;
+    background-color: white;
+    border-radius: 0px 0px 50px 0px;
+}
+.foothc{
+    /*background-color: rgba(19,22,39,.5);*/
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+    background: white;
+}
+.foothc ul {
+    padding: 0;
+}
+.foothc img{
+    background-position: center;
+}
+
+/**Fondos**/
+
+.navbarhc, .navbardownhc{
+    border-bottom: 1px solid #626571;
+    background: rgba(0,0,0,.20);
+}
+.navbarhc.navbar{
+    text-align: right;
+}
+.navbardownhc{
+    background: rgba(0,0,0,.75);
+}
+
+/**Vinculos**/
+li.nav-item a:hover, a:hover, a span:hover{
+    color: #f59f2b !important;
+    text-decoration: none;
+}
+
+li.nav-item .navbardownhc a{
+     color: #2bc0a4!important;
+}
+
+li.nav-item .navbardownhc a:hover{
+    background-color: unset;
+    color: white!important;
+}
+li.nav-item a, .foothc .socialiconhc a{
+    font-weight: bolder;
+    color: white!important;
+}
+.foothc .socialiconhc a{
+    color: #bbbbbb!important;
+}
+.icon_search, .foothc{
+    font-weight: bolder;
+    /*text-align: right;
+    font-size: 2rem;*/
+}
+.foothc a, a span{
+    color: #343a40;
+}
+
+#prueba{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
+
+p, .contenthc{
+    color: #51545f;
+}
+
+.containerhc {
+    max-width: 95rem;
+    line-height: 1.5;
+}
+.creativebhc{
+    max-width: 120rem;
+}
+
+div.copy_right_area{
+    border-top: 1px solid #bbbbbb;
+    padding-top: 1rem;
+}
+.macoda_footer .info{
+    max-width: max-content;
+}
+
+ol.faqhc{
+   margin-top: 1.5rem;
+}
+.faqhc li{
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+.faqhc a{
+    font-weight: bold;
+}
+
+.dashdhc, .articulosA .item, .casa .vista, .masinfo, .panelderitem{
+    border-bottom: 2px solid rgba(0,0,0,.2);
+    box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+}
+
+.dashanc{
+    width: 80%;
+}
+.sep{
+    height: 4vh;
+}
+
+
+
+.articulohc{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.dashanc a, .dashanc a:hover{
+    color: white!important;
+}
+.imgdescriphc{
+    width: 93%;
+    background-color: rgba(0,0,0,.4);
+}
+
+.articulosheadhc h1{
+
+}
+.articulosheadhc{
+    border-bottom: 2px dashed #e8e8e8;
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: rgb(232,232,232);
+}
+
+.articulosA .item{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.articulosA .item, .panelderitem{
+    background-color: #f7f7f7;
+
+}
+.articulosA .item div:first-child{
+    padding: 0;
+}
+
+.artA{
+    height: 55vh;
+}
+
+.carrete{
+    height: 13vh;
+}
+.item_carrete{
+    width: 266.6px;
+}
+
+.imgenslide1{
+    background-image: url('../img/loteos/loteo5.jpg');
+}
+.imgenslide2{
+    background-image: url('../img/loteos/loteo6.jpg');
+}
+.imgenslide3{
+     background-image: url('../img/loteos/loteo7.jpg');
+}
+.imgenslide4{
+    background-image: url('../img/loteos/loteo8.jpg');
+}
+.imgenslide5{
+    background-image: url('../img/loteos/loteo9.jpg');
+}
+.imgenslide6{
+    background-image: url('../img/loteos/loteo10.jpg');
+}
+.imgenslide7{
+    background-image: url('../img/loteos/loteo11.jpg');
+}
+
+.imgenslide8{
+    background-image: url('../img/loteos/loteo12.jpg');
+}
+.imgenslide9{
+    background-image: url('../img/loteos/loteo13.jpg');
+}
+
+.imgenslide10{
+    background-image: url('../img/loteos/loteo14.jpg');
+}
+
+
+.imagencarrete1, .imagencarrete2, .imagencarrete3, .imagencarrete4{
+
+    background-position: center;
+    background-size: cover;
+}
+
+.masinfo .rotulo{
+    background-color: rgba(0,145,209,.1);
+    border-top: solid 3px rgba(0,145,209,.2);
+}
+
+span.h6{
+    margin-bottom: 1rem;
+}
+
+/**Carrusel**/
+.carousel-indicators{
+    bottom: 0px;
+}
+
+/**Rellenos**/
+.creativebhc div div, .articulosA .artdescrip{
+    /*padding-top: 1vw!important;
+    padding-bottom: 1vw!important;*/
+padding: 1vw 2vw 1vw 2vw !important;
+}
+
+
+
+/**Margenes**/
+.dashdhc h3{
+    margin: 2vw 2vw 1vw 2vw !important;
+}
+.dashanc{
+    margin-top: 1.5vw !important;
+    margin-bottom: 1.5vw!important;
+}
+.panel-casas ul{
+    padding-left: 1vw;
+}
+.panel-casas ul li{
+    margin-bottom: 0.5em;
+}
+
+/**Barra de Navegacion**/
+.macoda_navbar{
+    width: 32%;
+    border-radius: 0.3rem 0 0 0.3rem;
+    position: fixed;
+    z-index: 1;
+    float: right;
+    top: 30px;
+    left: unset;
+}
+
+.macoda_navbar .navbar-toggler{
+    border: none;
+    padding: .25rem .5rem;
+}
+
+.macoda_homebanner .carousel-indicators li{
+    width: 15px;
+    height: 1px;
+}
+
+.macoda_footer a span:hover{
+    color: #ef7d2d!important;
+    text-shadow: #3a474d 1px 1px 1px!important;
+}
+
+.macoda_footer a span{
+    z-index: 1;
+    position: relative;
+    right: 2rem;
+}
+
+.macoda_footer img{
+    width: /*25vw*/25vw;
+}
+
+.macoda_servicio:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.macoda_servicio{
+    background: url('../img/backlogo.png') no-repeat fixed center;
+    background-size: cover;
+    /*padding: 5vh 0px;*/
+}
+.macoda_servicio{
+    position: relative;
+    z-index: 2;
+}
+.macoda_banner{
+    z-index: -1;
+    background:url('../img/loteos/banner_aux12.png') no-repeat center top;
+    filter: brightness(0.5);
+    background-size: contain;
+}
+.macoda_servicio img{
+    width: 15vw;
+    height: 10vw;
+}
+
+.macoda_servicio .card-footer{
+    padding: 1vw;
+}
+
+.macoda_contact .form-group{
+    margin-bottom: 0.3rem;
+}
+.macoda_contact .form-control{
+    padding: 0.1rem 0.6rem;
+}
+.visitas
+{
+    font-family:Verdana;
+    font-size:11px;
+    font-weight:bold;
+    margin-left:125px;
+    vertical-align:top;
+    padding:7px;
+    border-right: #c9c9c9 1px solid;
+    border-top: #c9c9c9 1px solid;
+    border-left: #c9c9c9 1px solid;
+    border-bottom: #c9c9c9 1px solid;
+}
+.macoda_sombra{
+    text-shadow: #f59f2b 1px 1px 1px;
+}
+.macoda_navbar a>i:hover, .macoda_navbar ul a:hover{
+    text-shadow: #ef7d2d 0px 5px 20px;
+    color: white;
+}
+
+.macoda_navbar a>i{
+    font-size: x-large;
+    color: #3a474d;
+}
+
+/**Sobre Nosotros**/
+main[role="main-inner-wrapper"] .about-content{
+    background-color:#ef7d2d;
+    padding: 2vw;
+}
+
+main[role="main-inner-wrapper"] .about-content p{
+    line-height:1.5;
+    color:#FFF;
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan{
+    padding-top:30px
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure{
+    background-color:#FFF;
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure,main[role="main-inner-wrapper"] .thumbnails-pan section figure, img,main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption,section.blog-content figure,section.blog-content figure img,section.blog-content  article{
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{
+    position:absolute;
+    bottom:-50%;
+    left:0;
+    right:0;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 10px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: #000000 1px 1px 1px;
+    padding-top:0.75rem;
+    padding-bottom:0.75rem;
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption span{
+    font-size: 2vh;
+    line-height: 1;
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5{
+    text-transform:uppercase;
+    font-weight:bold
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,section.blog-content:hover article{
+    background-color:#ef7d2d;
+    color:#FFF
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover img,section.blog-content:hover figure img{
+    -webkit-transform: scale3d(1.08,1.08,2);
+    transform: scale3d(1.08,1.08,2);
+    opacity:0.7}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover figcaption{
+    bottom:0;
+}
+
+div, main {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+}
+
+div.subborder{
+    border-bottom: 0.5px solid #3a474d;
+    border-top: 0.5px solid #3a474d;
+    height: 3px;
+    width: 10vw;
+    margin: auto;
+    opacity: 0.5;
+}
+h4.section-title{
+    padding: 3vw 0 0 0;
+}
+.lista-index {
+    box-shadow: 1px 0px 17px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 0px 17px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 0px 17px 1px rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 1000;
+}
+.prop-item {
+    height: 323px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.1);
+}
+.prop-item:hover {
+    box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.6);
+}
+.prop-item a:before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.prop-item .cont-imagen {
+    position: relative;
+
+}
+.prop-detalle {
+    padding: 0 15px;
+    line-height: 1.3;
+}
+.prop-oper {
+    display: inline-block;
+    background-color: #343a40;
+    line-height: 27px;
+    padding: 0 15px;
+    color: #fff;
+}
+.prop-detalle h4{
+    font-size: 1.125rem;
+    color: #343a40;
+}
+
+
+/**Animaciones texto inicio**/
+.owl-carousel .animated, .animatedzoomIn, .animatedbounceIn, .animatedfadeInLeft, .animatedbounceInLeft, .animatedbounceInRight{
+    animation-delay: 0.5s;
+}
+.macoda_slide1 .animatedzoomIn, .macoda_slide1 .animatedbounceIn{
+    animation-duration: 2s;
+}
+.macoda_slide2 .animatedbounceInLeft{
+    animation-duration: 3s;
+}
+
+/**Animaciones texto fin**/
+
+.items1, .items2, .items3{
+
+    width: 100%;
+    height: 100%;
+}
+.items1{
+    background-image: url("../img/loteos/434173105.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade1 8s infinite;
+}
+.items2{
+    background-image: url("../img/loteos/big_156181-1200x762_c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade2 8s infinite;
+}
+.items3{
+    background-image: url("../img/loteos/f999x666-23077_118142_9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade3 8s infinite;
+}
+@keyframes fade1 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fade2 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes fade3 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#bar{
+    width: 0%;
+    max-width: 100%;
+    height: 4px;
+    background: #7fc242;
+}
+#progressBar{
+    width: 100%;
+    background: #EDEDED;
+}
+
+.owl-carousel h1{
+    text-transform: uppercase;
+}

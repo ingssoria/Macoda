@@ -1,0 +1,60 @@
+<app-dashboard-banner></app-dashboard-banner>
+
+<div class="container macoda_contact py-5 animated zoomIn" style="margin-top: 20vw">
+    <div class="row">
+        <div class="col-md-6 d-flex flex-row">
+            <div class="container text-right">
+                <h4 class="">Contáctenos</h4>
+                <div class="container px-0 animated fadeIn">
+                    <p>Usted puede contactarnos a traves de varias vías, elija la de su preferencia.</p>
+                    <ul class="px-0">
+                        <li class="nav-link px-0 d-flex flex-row align-items-center justify-content-end"><span class="pr-1 ">+54 299 4081400</span><i style="width: 1.5rem" class="fa fa-phone px-1" aria-hidden="true"></i></li>
+                        <li class="nav-link px-0 d-flex flex-row align-items-center justify-content-end"><a class="pr-1" href="mailto:macoda@gmail.com" style="color: #51545f">macoda@gmail.com</a><i style="width: 1.5rem" class="fa fa-envelope px-1" aria-hidden="true"></i></li>
+                        <li class="nav-link px-0 d-flex flex-row align-items-center justify-content-end"><span class="pr-1">Corrientes 1711, Neuquen</span><i style="width: 1.5rem" class="fa fa-map-marker px-1 text-center" aria-hidden="true"></i></li>
+                        <li class="nav-link px-0 d-flex flex-row align-items-center justify-content-end"><span class="pr-1">8.00 - 17.00 Lunes - Sábados</span><i style="width: 1.5rem" class="fa fa-clock-o px-1" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 d-flex flex-row container-fluid pl-5">
+            <div>
+                <h4  class="">Envíenos su consulta</h4>
+
+                <form class="row animated fadeIn" (ngSubmit)="contactar()" #contactarForm="ngForm" novalidate>
+                    <div class="form-group col-lg-8">
+                        <input type="text" class="form-control" name="name" placeholder="Nombre" [(ngModel)]="mensaje.name" #name="ngModel"/>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <input type="email" class="form-control" name="email" placeholder="Coreo Electrónico" [(ngModel)]="mensaje.email" #email="ngModel"/>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <input type="text" class="form-control" name="subject" placeholder="Asunto"[(ngModel)]="mensaje.subject" #subject="ngModel"/>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <textarea class="form-control" name="message" rows="3" placeholder="Mensaje"[(ngModel)]="mensaje.message" #message="ngModel"></textarea>
+                    </div>
+                    <div class="form-group col-lg-8">
+                        <input type="submit" value="Enviar Mensaje" class="btn btn-outline-dark form-control font-weight-bold"/>
+                    </div>
+                    <div *ngIf="respuesta" class="form-group col-lg-8 animated fadeInDown fadeInUp">
+                        <div class="form-control font-weight-bold text-white text-center {{respuesta.clase}}">{{respuesta.texto}}</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid macoda_contactmap px-0" style="height: 40vh">
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1844.3567812509596!2d-68.05798996175365!3d-38.97364067544144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1523044546351" allowfullscreen></iframe>
+</div>
+<!--<div id="mapBox" class="mapBox row m0"
+     data-lat="1.30921"
+     data-lon="103.8509813"
+     data-zoom="14"
+     data-marker="img/map-marker.png"
+     data-info="Broadway Hotel"
+     data-mlat="1.30921"
+     data-mlon="103.8509813">
+</div>
+<form class="row" action="../assets/php/contact_process.php" method="post" id="contactForm" novalidate="novalidate">-->

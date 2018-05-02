@@ -1,0 +1,951 @@
+/**Fuentes**/
+h1{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.7rem;
+}
+h4{
+
+}
+.macoda_navbar li.nav-item a{
+    font-size: 8pt!important;
+}
+
+@media (min-width: 1200px) {
+    h1{
+        font-size: 4vw;
+    }
+    h3{
+        font-size: 2vw;
+    }
+    h4{
+
+    }
+    .slidercapahc p{
+         font-size: 2rem;
+    }
+    .faqhc, .contenthc p, .articulosA p{
+             font-size: 1.5rem;
+    }
+
+    .p-izq-col-5{
+        flex: 20%;
+        max-width: 20%;
+    }
+    .dashcasasA{
+        flex: 77%;
+        max-width: 77%;
+    }
+
+    .dashcasasB{
+        flex: 23%;
+        max-width: 23%;
+    }
+
+}
+@media (min-width: 575px) {
+    #box_itemhc:before, #navbox_itemmcd:before{
+        content: "";
+        background: #e5e5e5;
+        height: /*180px;*/10vh;
+        width: 1.6px;
+        position: absolute;
+        right: 0px;
+        top: 40px;
+    }
+
+}
+@media (max-width: 575px) {
+    .macoda_navbar li{
+        padding: 0.5rem 0 0.5rem 0!important;
+        text-align: right;
+    }
+    /*.macoda_footer .d-flex{
+       align-items: center!important;
+    }*/
+}
+
+@media (max-width: 1200px) {
+    .cardcasa{
+        margin-bottom: 1vh;
+    }
+}
+/**Colores de Fuentes**/
+.macoda_navbar li.nav-item a{
+    color: #ef7d2d!important;
+    text-shadow: #3a474d 1px 1px 1px
+
+}
+
+/**Fondos**/
+body{
+    /*background-color: #8c8c8c;*/
+}
+.sliderhc, .bannerhc{
+    background: url('../img/banner/banner.jpg');
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: rgba(255,255,255,0.5)/*(58,71,77,0.2)*/;
+}
+
+.slide-1, .owl-slide-1{
+    background: url('../img/loteos/06a1a03c285ba1a3bfae86412a072e9cf4b8a1f5.jpeg');
+}
+.slide-2, .owl-slide-2{
+    background: url('../img/loteos/entrega-de-viviendas-en-lot.jpg');
+}
+.slide-3, .owl-slide-3{
+    background: url('../img/loteos/slides1a.jpg');
+}
+.slide-4, .owl-slide-4{
+    background: url('../img/inmuebles/5664116287479107416267186125347172590179939795302154226801931671344394172350.jpg');
+}
+.slide-1, .slide-2, .slide-3, .slide-4, .owl-slide-1, .owl-slide-2, .owl-slide-3, .owl-slide-4{
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.bannerlistahc{
+    background: url('../img/banner/bannera.jpg');
+    background-position: top;
+    background-size: cover;
+}
+
+.img_latest_news_areahc{
+    width: 100vh;
+    height: 25vh;
+    /*border-radius: 6px;*/
+}
+.slidercapahc, .bannercapahc, .macoda_bannercapa{
+    background-color: rgba(0,0,0,.5);
+    height: 80vh;
+}
+.bannerhc, .bannercapahc{
+    height: 30vh;
+}
+.slidercapahc h1, .bannercapahc h1{
+    /*font-size: 5rem;*/
+}
+.slidercapahc p, h1.encabezadossechc p, h1.encabezadossechc{
+    /*font-size: 3rem;*/
+}
+.creativeahc, .capacasa, .macoda_contact, .macoda_aboutus{
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+}
+.creativebhc{
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+    margin-top: -100px !important;
+    /*margin-top: -70px !important;*/
+    z-index: 22;
+    position: relative;
+}
+.latest_news_areahc{
+    border: 1px solid #ebebeb;
+    background-color: white;
+    border-radius: 0px 0px 50px 0px;
+}
+.foothc{
+    /*background-color: rgba(19,22,39,.5);*/
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+    background: white;
+}
+.foothc ul {
+    padding: 0;
+}
+.foothc img{
+    background-position: center;
+}
+
+/**Fondos**/
+
+.navbarhc, .navbardownhc{
+    border-bottom: 1px solid #626571;
+    background: rgba(0,0,0,.20);
+}
+.navbarhc.navbar{
+    text-align: right;
+}
+.navbardownhc{
+    background: rgba(0,0,0,.75);
+}
+
+
+
+
+/**Vinculos**/
+li.nav-item a:hover, a:hover, a span:hover{
+    color: #f59f2b !important;
+    text-decoration: none;
+}
+
+li.nav-item .navbardownhc a{
+     color: #2bc0a4!important;
+}
+
+li.nav-item .navbardownhc a:hover{
+    background-color: unset;
+    color: white!important;
+}
+li.nav-item a, .foothc .socialiconhc a{
+    font-weight: bolder;
+    /*font-size: 1.4rem;*/
+    color: white!important;
+}
+
+
+
+
+.foothc .socialiconhc a{
+    color: #bbbbbb!important;
+}
+.icon_search, .foothc{
+    font-weight: bolder;
+    /*text-align: right;
+    font-size: 2rem;*/
+}
+.foothc a, a span{
+    color: #343a40;
+}
+.foothc .socialiconhc a, .followus .socialiconhc a{
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-radius: 100%;
+    text-align: center;
+    /*font-size: 2rem;*/
+}
+.followus .socialiconhc a{
+    background-color: #51545f;
+    color: white !important;
+}
+.foothc .socialiconhc a:hover, .followus .socialiconhc a:hover{
+    background-color: #2bc0a4;
+    color: white !important;
+}
+#prueba{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
+h4{
+    /*font-size: 1.90rem;*/
+}
+p, .contenthc{
+    /*font-size: 1.5rem;*/
+    color: #51545f;
+}
+
+.containerhc {
+    max-width: 95rem;
+    line-height: /*2;*/1.5;
+}
+.creativebhc{
+    max-width: 120rem;
+}
+
+div.copy_right_area/*.macoda_footer .row*/{
+    border-top: 1px solid #bbbbbb;
+    padding-top: 1rem;
+}
+.macoda_footer .info{
+    max-width: max-content;
+}
+
+ol.faqhc{
+   margin-top: 1.5rem;
+}
+.faqhc li{
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+.faqhc a{
+    font-weight: bold;
+}
+
+.form-control{
+    /*font-size: 1.6rem;*/
+}
+.dashdhc, .articulosA .item, .casa .vista, .masinfo, .panelderitem{
+    border-bottom: 2px solid rgba(0,0,0,.2);
+    box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+}
+/*.articulosA .item .row{
+    border-right: 2px solid rgba(0,0,0,.2);
+    box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+}*/
+.dashanc{
+    width: 80%;
+}
+.sep{
+    height: 4vh;
+}
+.articulos{
+    width: 120rem;
+}
+.img1{
+    background: url('../img/articulos/1445334837_cuba4.jpg');
+}
+.img2{
+     background: url('../img/articulos/cayo_largo_-_playa_sirena.jpg');
+}
+.img3{
+    background: url('../img/articulos/catedral_de_santiago_de_cuba.jpg');
+}
+.img4{
+    background: url('../img/articulos/1434126870_924998_1434133391_noticia_normal.jpg');
+}
+.img5{
+    background: url('../img/articulos/parque-el-morro-santiago-cu.jpg');
+}
+
+.img2, .img3, .img4, .img5{
+    height: 30vh;
+}
+
+.img1{
+    height: 64vh;
+}
+
+.articulohc{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.dashanc a, .dashanc a:hover{
+    color: white!important;
+}
+.imgdescriphc{
+    width: 93%;
+    background-color: rgba(0,0,0,.4);
+}
+
+.articulosheadhc h1{
+
+}
+.articulosheadhc{
+    border-bottom: 2px dashed #e8e8e8;
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: rgb(232,232,232);
+}
+
+.articulosA .item{
+    /*max-height: 50%;
+    padding: 1rem;*/
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.articulosA .item img{
+    /*height: 100%;
+    max-height: 50%;*/
+}
+
+.articulosA .item, .panelderitem{
+    background-color: #f7f7f7;
+
+}
+.articulosA .item div:first-child{
+    padding: 0;
+}
+
+.leermas{
+    //padding-top: 10vh;
+}
+
+.artA{
+    height: 55vh;
+}
+.casa, .namecasa{
+    /*max-width: 130rem;*/
+    max-width: 100rem;
+}
+.carrete{
+    height: 13vh;
+}
+.item_carrete{
+    width: 266.6px;
+}
+.casa img{
+    vertical-align: center;
+}
+.imagencarrete1{
+    background: url('../img/casas/vista-paseo-room2.2.jpg');
+}
+.imagencarrete2{
+    background: url('../img/casas/ventanales-vedado-coedor.jpg');
+}
+.imagencarrete3{
+    background: url('../img/casas/ventanales-vedado-comedor1.jpg');
+}
+.imagencarrete4{
+    background: url('../img/casas/2-hermanos-afura.jpg');
+}
+.imagencarrete1, .imagencarrete2, .imagencarrete3, .imagencarrete4{
+
+    background-position: center;
+    background-size: cover;
+}
+
+.casa{
+    /*background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);*/
+}
+
+.precio span.obs{
+    /*font-size: 1.5rem;*/
+ }
+.precio{
+    background-color: rgba(0,145,209,.2);
+    border-bottom: 2px solid rgba(0,145,209,.2);
+    box-shadow: 4px 7px 20px 0px rgba(0,145,209,.2);
+    /*border-radius: 1.25rem;
+    box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);*/
+}
+.precio .display-4{
+    font-weight: 500;
+}
+/*.precio h1 span{
+    font-size: 50%;
+}*/
+
+.panel-casas li{
+    /*font-size: 1.5rem;*/
+    width: 210px;
+}
+.masinfo .rotulo{
+    background-color: rgba(0,145,209,.1);
+    border-top: solid 3px rgba(0,145,209,.2);
+
+
+}
+.masinfo .rotulo, .casa .details{
+    padding: 0.5rem 1.5rem;
+}
+.casa li .etiqueta{
+    background-color: rgba(0,145,209,.2);
+    width: 100%;
+    padding: 3px 10px;
+    border-radius: 25px;
+    text-align: center;
+    border-bottom: solid rgba(0,145,209,.2);
+    box-shadow: 4px 7px 20px 0px rgba(0,145,209,.2);
+}
+
+.casa .descripcion .fa{
+    /*font-size: smaller;*/
+}
+.casa .details .fa{
+    /*font-size: 3rem;*/
+}
+.masinfo{
+    margin-bottom: 2rem;
+    /*box-shadow: 4px 7px 20px 0px rgba(0,145,209,.2);*/
+}
+.casa table, .casa button, .table-condensed{
+    /*font-size: 1.6rem;*/
+}
+.table td{
+    vertical-align: unset;
+}
+.areaa, .areab{
+    /*margin: 0rem 1rem;*/
+}
+.envoltorio{
+    /*flex-wrap: unset;*/
+}
+.sugerencia{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: solid 1px rgba(0,0,0,.2);
+}
+.casa img{
+/*max-height: 44%;*/
+}
+.panel-casas li span{
+    border-radius: 0.3rem;
+    padding: 1px 6px;
+    background-color: #28a745;
+    /*font-size: 1.2rem;*/
+    font-weight: bold;
+}
+
+.panel-casas li.nav-link{
+    padding: 0px;
+}
+
+.price{
+    z-index: 50;
+    position: absolute;
+    padding: .5rem 1rem;
+    width: max-content;
+    min-width: max-content;
+    background-color: rgba(52, 58, 64, 0.5);
+    box-shadow: -2px 2px 0px rgba(0,0,0,0.3);
+    font-weight: bold;
+    text-shadow: 4px 1px 2px #000;
+    border-radius: 50px 0px;
+    border-bottom: 2px solid rgba(0,145,209,.7);
+}
+
+.descipcioncasa{
+    padding: 0.2rem 1vh 0.2rem 0rem;
+    border-radius: 14px 0px;
+    border-bottom: 2px solid rgba(0,145,209,.7);
+    margin-right: 1vw;
+    /*border-radius: 25px;
+    border-bottom: solid rgba(0,145,209,.2);*/
+}
+span.h6{
+    margin-bottom: 1rem;
+}
+.price span, .owl-carousel p{
+    color: white;
+}
+.price span.imp{
+
+    /*font-size: 1.6rem;*/
+}
+
+/*.dashcasasA{
+    flex: 77%;
+    max-width: 77%;
+}
+
+.dashcasasB{
+    flex: 23%;
+    max-width: 23%;
+}*/
+
+.p-izq-col-5{
+    /*flex: 20%;
+    max-width: 20%;*/
+}
+
+.datepicker td, .datepicker th, .datepicker td span{
+    padding: 0.3rem 0.5rem;
+    /*border-radius: 4px;
+    text-align: center;*/
+}
+.datepicker td span{
+    /*width: max-content!important;*/
+}
+
+.headcalendar{
+    /*font-size: 1.6rem;*/
+    font-weight: bold;
+    padding: 0.75rem;
+}
+
+.datepicker .datepicker-switch:hover{
+    background: unset!important;
+    cursor: auto;
+}
+
+/**Carrusel**/
+.carousel-indicators{
+    bottom: 0px;
+}
+
+/**Rellenos**/
+.creativebhc div div, .articulosA .artdescrip{
+    /*padding-top: 1vw!important;
+    padding-bottom: 1vw!important;*/
+padding: 1vw 2vw 1vw 2vw !important;
+}
+
+
+
+/**Margenes**/
+.dashdhc h3{
+    margin: 2vw 2vw 1vw 2vw !important;
+}
+.dashanc{
+    margin-top: 1.5vw !important;
+    margin-bottom: 1.5vw!important;
+}
+.panel-casas ul{
+    padding-left: 1vw;
+}
+.panel-casas ul li{
+    margin-bottom: 0.5em;
+}
+
+/**Barra de Navegacion**/
+.macoda_navbar{
+    width: 50%;
+    border-radius: 0.3rem 0 0 0.3rem;
+    position: fixed;
+    z-index: 1;
+    float: right;
+    top: 20px;
+    left: unset;
+}
+
+.macoda_navbar .navbar-toggler{
+    border: none;
+}
+
+.macoda_homebanner .carousel-indicators li{
+    width: 15px;
+    height: 1px;
+}
+
+.macoda_footer a span:hover{
+    color: #ef7d2d!important;
+    text-shadow: #3a474d 1px 1px 1px!important;
+}
+
+.macoda_footer a span{
+    z-index: 1;
+    position: relative;
+    right: 2rem;
+}
+
+.macoda_footer img{
+    width: /*25vw*/40vw;
+}
+
+.macoda_servicio:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.macoda_servicio{
+    background: url('../img/backlogo.png') no-repeat fixed center;
+    background-size: cover;
+    /*padding: 5vh 0px;*/
+}
+/*.macoda_banner{
+    background: url('../img/inmuebles/banner_aux12.png') no-repeat fixed center top;
+    background-size: contain;
+}*/
+/*.macoda_banner,*/ .macoda_servicio{
+    position: relative;
+    z-index: 2;
+}
+.macoda_banner{
+    z-index: -1;
+    background:url('../img/loteos/banner_aux12.png') no-repeat center top;
+    filter: brightness(0.5);
+    background-size: contain;
+}
+.macoda_servicio img{
+    width: 15vw;
+    height: 10vw;
+}
+
+.macoda_servicio .card-footer{
+    padding: 1vw;
+}
+
+.macoda_contact .form-group{
+    margin-bottom: 0.3rem;
+}
+.macoda_contact .form-control{
+    padding: 0.1rem 0.6rem;
+}
+.visitas
+{
+    font-family:Verdana;
+    font-size:11px;
+    font-weight:bold;
+    margin-left:125px;
+    vertical-align:top;
+    padding:7px;
+    border-right: #c9c9c9 1px solid;
+    border-top: #c9c9c9 1px solid;
+    border-left: #c9c9c9 1px solid;
+    border-bottom: #c9c9c9 1px solid;
+}
+.macoda_sombra{
+    text-shadow: #f59f2b 1px 1px 1px;
+}
+.macoda_navbar a>i:hover, .macoda_navbar ul a:hover{
+    text-shadow: #ef7d2d 0px 5px 20px;
+    color: white;
+}
+
+.macoda_navbar a>i{
+    font-size: x-large;
+    color: #3a474d;
+}
+
+/**Sobre Nosotros**/
+main[role="main-inner-wrapper"] .about-content{
+    background-color:#ef7d2d;
+    padding: 2vw;
+    /*padding-top:57px;
+    padding-left:70px;
+    padding-right:67px;
+    padding-bottom:58px;*/
+}
+
+main[role="main-inner-wrapper"] .about-content p{
+    line-height:1.5;
+    color:#FFF;
+    /*padding-bottom:20px*/
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan{
+    padding-top:30px
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure{
+    background-color:#FFF;
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure,main[role="main-inner-wrapper"] .thumbnails-pan section figure, img,main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption,section.blog-content figure,section.blog-content figure img,section.blog-content  article{
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{
+    position:absolute;
+    bottom:-50%;
+    left:0;
+    right:0;
+    background-color:#ef7d2d;
+    margin:0 10px;
+    text-align:center;
+    color:#FFF;
+    /*padding-top:16px;
+    padding-bottom:27px;*/
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption span /*h3*/{
+    /*font-size:21px;
+    line-height:22px;
+    font-weight:300;*/
+    font-size: 2vh;
+    line-height: 1;
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5{
+    text-transform:uppercase;
+    /*font-size:13px;
+    line-height:14px;*/
+    font-weight:bold
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,section.blog-content:hover article{
+    background-color:#ef7d2d;
+    color:#FFF
+}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover img,section.blog-content:hover figure img{
+    -webkit-transform: scale3d(1.08,1.08,2);
+    transform: scale3d(1.08,1.08,2);
+    opacity:0.7}
+
+main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover figcaption{
+    bottom:0;
+}
+
+div, main {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+}
+
+div.subborder{
+    border-bottom: 0.5px solid #3a474d;
+    border-top: 0.5px solid #3a474d;
+    height: 3px;
+    width: 10%;
+    margin: auto;
+    opacity: 0.5;
+}
+h4.section-title{
+    padding: 3vw 0 0 0;
+}
+.lista-index {
+    box-shadow: 1px 0px 17px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 0px 17px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 0px 17px 1px rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 1000;
+}
+.prop-item {
+    height: 323px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.1);
+}
+.prop-item:hover {
+    box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.6);
+}
+.prop-item a:before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.prop-item .cont-imagen {
+    position: relative;
+
+}
+.prop-detalle {
+    padding: 0 15px;
+    line-height: 1.3;
+}
+.prop-oper {
+    display: inline-block;
+    background-color: #343a40;
+    line-height: 27px;
+    padding: 0 15px;
+    color: #fff;
+}
+.prop-detalle h4{
+    font-size: 1.125rem;
+    color: #343a40;
+}
+
+
+/*
+.carousel-fade .carousel-inner .item, .carousel-item {
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right, .carousel-item {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right, .carousel-item {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}*/
+
+
+/**Animaciones texto inicio**/
+.owl-carousel .animated{
+    animation-delay: 0.5s;
+}
+/**Animaciones texto fin**/
+
+.items1, .items2, .items3{
+
+    width: 100%;
+    height: 100%;
+}
+.items1{
+    background-image: url("../img/loteos/434173105.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade1 8s infinite;
+}
+.items2{
+    background-image: url("../img/loteos/big_156181-1200x762_c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade2 8s infinite;
+}
+.items3{
+    background-image: url("../img/loteos/f999x666-23077_118142_9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade3 8s infinite;
+}
+@keyframes fade1 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fade2 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes fade3 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#bar{
+    width: 0%;
+    max-width: 100%;
+    height: 4px;
+    background: #7fc242;
+}
+#progressBar{
+    width: 100%;
+    background: #EDEDED;
+}
+
+.owl-carousel h1{
+    text-transform: uppercase;
+}

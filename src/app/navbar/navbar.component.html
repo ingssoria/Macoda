@@ -1,0 +1,36 @@
+<div class="fixed-top">
+    <div class="macoda_navbar">
+        <a class="navbar-brand" href="#">
+            <img src="../assets/img/logo.png" style="width: 150px" alt="MACODA SRL">
+            <!--<p class="display-5 text-center font-weight-bold macoda_sombra" style="color: #3a474d;">MACODA SRL</p>-->
+        </a>
+    </div>
+    <div class="navbar macoda_navbar navbar-light navbar-expand-md py-1 fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavmcd" aria-controls="navbarNavmcd" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavmcd">
+            <ul class="navbar-nav d-flex flex-row align-items-center">
+                <li class="nav-item active">
+                    <a class="nav-link py-0" href="">
+                        <i class="fa fa-home"></i>
+                        <!--<img src="../assets/img/ico_home.png" alt="">-->
+                    </a>
+                </li>
+                <li class="nav-item py-0">
+                    <a id="este" class="nav-link py-0" [routerLink]="['/aboutus']">Quienes Somos</a>
+                </li>
+                <!--<li class="nav-item py-0">
+                    <a class="nav-link py-0" href="#">Equipo</a>
+                </li>-->
+                <li class="nav-item py-0">
+                    <a class="nav-link  py-0" [routerLink]="['/services']">Servicios</a>
+                </li>
+                <li class="nav-item py-0">
+                    <a class="nav-link  py-0" [routerLink]="['/contact']">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
